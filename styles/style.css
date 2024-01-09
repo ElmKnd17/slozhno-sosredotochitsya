@@ -99,9 +99,8 @@
 }
 
 .header__theme-menu-button {
-  height: 26px;
   border: none;
-  padding: 0 13px;
+  padding: 4px 13px;
   color: var(--accent-text-color);
   line-height: 100%;
   text-transform: lowercase;
