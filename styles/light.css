@@ -1,6 +1,5 @@
 @media (prefers-color-scheme: light) {
   :root {
-    --shadow-decor-color: rgba(255, 0, 112, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --main-text-color: #353430;
     --additional-text-color: #353430;
@@ -13,7 +12,6 @@
 }
 
 .page.theme_light {
-  --shadow-decor-color: rgba(255, 0, 112, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --main-text-color: #353430;
   --additional-text-color: #353430;

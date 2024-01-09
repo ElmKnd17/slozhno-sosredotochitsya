@@ -1,5 +1,5 @@
 :root {
-  --shadow-decor-color: rgba(255, 0, 112, 1);
+  --padding-value: 20px;
   --accent-color: rgba(255, 0, 112, 1);
   --main-text-color: #F1B2CE;
   --additional-text-color: #000028;
@@ -8,4 +8,10 @@
   --header-bg-image: url(../images/cover-image-dark.png);
   --hover-button-outline-color: rgb(255 0 112 / .4);
   --rec-decor: block;
+}
+
+@media only screen and (width < 768px) {
+  :root {
+    --padding-value: 10px;
+  }
 }
